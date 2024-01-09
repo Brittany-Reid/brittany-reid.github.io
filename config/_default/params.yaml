@@ -9,8 +9,8 @@ appearance:
   mode: light
   color: red
   day_night: false
+  # theme_day: custom
   theme_day: custom
-  theme_night: custom
 
 # SEO
 
