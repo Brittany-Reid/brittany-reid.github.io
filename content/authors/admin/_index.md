@@ -22,7 +22,7 @@ organizations:
     url: https://www.naist.jp/en/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Brittany Reid is a postdoctoral researcher at the NAIST Software Engineering Lab.
+bio: Brittany Reid is a postdoctoral researcher at the NAIST Software Engineering Lab whose work focuses on code reuse.
 
 # Interests to show in About widget
 # interests:
@@ -117,5 +117,5 @@ social:
 highlight_name: true
 ---
 
-Brittany Reid is a postdoctoral researcher at the NAIST Software Engineering Lab.
+Brittany Reid is a postdoctoral researcher at the NAIST Software Engineering Lab whose work focuses on code reuse.
 {style="text-align: justify;"}
