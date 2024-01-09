@@ -11,6 +11,7 @@ appearance:
   font: minimal
   font_size: L
   mode: light
+  theme_default: light
 
 # SEO
 

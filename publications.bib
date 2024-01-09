@@ -1,14 +1,15 @@
-@article{RN17,
+@article{chinthanet2021what,
    author = {Chinthanet, Bodin and Reid, Brittany and Treude, Christoph and Wagner, Markus and Kula, Raula Gaikovina and Ishio, Takashi and Matsumoto, Kenichi},
    title = {What makes a good Node. js package? Investigating Users, Contributors, and Runnability},
    journal = {arXiv preprint arXiv:2106.12239},
    abstract = {The Node.js Package Manager (i.e., npm) archive repository serves as a critical part of the JavaScript community and helps support one of the largest developer ecosystems in the world. However, as a developer, selecting an appropriate npm package to use or contribute to can be difficult. To understand what features users and contributors consider important when searching for a good npm package, we conduct a survey asking Node.js developers to evaluate the importance of 30 features derived from existing work, including GitHub activity, software usability, and properties of the repository and documentation. We identify that both user and contributor perspectives share similar views on which features they use to assess package quality. We then extract the 30 features from 104,364 npm packages and analyse the correlations between them, including three software features that measure package ``runnability"; ability to install, build, and execute a unit test. We identify which features are negatively correlated with runnability-related features and find that predicting the runnability of packages is viable. Our study lays the groundwork for future work on understanding how users and contributors select appropriate npm packages.},
+   keywords = {library selection, documentation},
    url = {https://arxiv.org/abs/2106.12239},
    year = {2021},
    type = {Journal Article}
 }
 
-@article{RN19,
+@article{reid2023ncq,
    author = {Reid, Brittany and d'Amorim, Marcelo and Wagner, Markus and Treude, Christoph},
    title = {NCQ: code reuse support for Node. js developers},
    journal = {IEEE Transactions on Software Engineering},
@@ -16,6 +17,7 @@
    number = {5},
    pages = {3205-3225},
    abstract = {Code reuse is an important part of software development. The adoption of code reuse practices is especially common among Node.js developers. The Node.js package manager, NPM, indexes over 1 Million packages and developers often seek out packages to solve programming tasks. Due to the vast number of packages, selecting the right package is difficult and time consuming. With the goal of improving productivity of developers that heavily reuse code through third-party packages, we present Node Code Query (NCQ), a Read-Eval-Print-Loop environment that allows developers to 1) search for NPM packages using natural language queries, 2) search for code snippets related to those packages, 3) automatically correct errors in these code snippets, 4) quickly setup new environments for testing those snippets, and 5) transition between search and editing modes. In two user studies with a total of 20 participants, we find that participants begin programming faster and conclude tasks faster with NCQ than with baseline approaches, and that they like, among other features, the search for code snippets and packages. Our results suggest that NCQ makes Node.js developers more efficient in reusing code.},
+   keywords = {code reuse, code search, library selection, documentation, search engines, search problems, task analysis, problem-solving},
    ISSN = {0098-5589},
    DOI = {10.1109/TSE.2023.3248113},
    url = {https://ieeexplore.ieee.org/abstract/document/10050780},
@@ -23,7 +25,7 @@
    type = {Journal Article}
 }
 
-@misc{RN16,
+@misc{reid2020optimising,
    author = {Reid, Brittany and Treude, Christoph and Wagner, Markus},
    title = {Optimising the Fit of Stack Overflow Code Snippets into Existing Code},
    publisher = {Association for Computing Machinery},
@@ -36,24 +38,25 @@
    type = {Conference Paper}
 }
 
-@misc{RN20,
+@misc{reid2023using,
    author = {Reid, Brittany and Treude, Christoph and Wagner, Markus},
    title = {Using the TypeScript compiler to fix erroneous Node. js snippets},
    publisher = {Bogotá, Colombia},
    pages = {220-230},
    abstract = {Most online code snippets do not run. This means that developers looking to reuse code from online sources must manually find and fix errors. We present an approach for automatically evaluating and correcting errors in Node.js code snippets: Node Code Correction (NCC). NCC leverages the ability of the TypeScript compiler to generate errors and inform code corrections through the combination of TypeScript’s builtin codefixes, our own targeted fixes, and deletion of erroneous lines. Compared to existing approaches using linters, our findings suggest that NCC is capable of detecting a larger number of errors per snippet and more error types, and it is more efficient at fixing snippets. We find that 73.7% of the code snippets in NPM documentation have errors; with the use of NCC’s corrections, this number was reduced to 25.1%. Our evaluation confirms that the use of the TypeScript compiler to inform code corrections is a promising strategy to aid in the reuse of code snippets from online sources.},
+   keywords = {node.js, static analysis, error correction, documentation},
    DOI = {10.1109/SCAM59687.2023.00031},
    url = {https://ieeexplore.ieee.org/abstract/document/10356712},
    year = {2023},
    type = {Conference Paper}
 }
 
-@misc{RN18,
+@misc{reid2022software,
    author = {Reid, Brittany and Wagner, Markus and d'Amorim, Marcelo and Treude, Christoph},
    title = {Software engineering user study recruitment on prolific: An experience report},
    abstract = {Online participant recruitment platforms such as Prolific have been gaining popularity in research, as they enable researchers to easily access large pools of participants. However, participant quality can be an issue; participants may give incorrect information to gain access to more studies, adding unwanted noise to results. This paper details our experience recruiting participants from Prolific for a user study requiring programming skills in Node.js, with the aim of helping other researchers conduct similar studies. We explore a method of recruiting programmer participants using prescreening validation, attention checks and a series of programming knowledge questions. We received 680 responses, and determined that 55 met the criteria to be invited to our user study. We ultimately conducted user study sessions via video calls with 10 participants. We conclude this paper with a series of recommendations for researchers. },
+   keywords = {user studies, participant recruitment},
    url = {https://arxiv.org/abs/2201.05348},
    year = {2022},
    type = {Conference Paper}
 }
-
