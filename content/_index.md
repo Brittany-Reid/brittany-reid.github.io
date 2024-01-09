@@ -50,6 +50,10 @@ sections:
   #     username: admin
     design:
       columns: '1'
+      background:
+        gradient_end: '#9e0000'
+        gradient_start: '#004ba0'
+        text_color_light: true
   # - block: experience
   #   content:
   #     title: Experience
