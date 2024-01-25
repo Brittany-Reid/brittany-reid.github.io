@@ -242,7 +242,7 @@ sections:
       title: Contact
       subtitle:
       # Contact (add or remove contact options as necessary)
-      email: brittany-reid@naist.ac.jp
+      email: brittany.reid@naist.ac.jp
       phone: 0743-72-5318
       # appointment_url: 'https://calendly.com'
       address:
