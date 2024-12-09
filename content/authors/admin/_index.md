@@ -14,7 +14,7 @@ last_name: Reid
 superuser: true
 
 # Role/position/tagline
-role: Postdoctoral Researcher
+role: Postdoctoral Researcher <br> 博士研究員
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -22,7 +22,7 @@ organizations:
     url: https://www.naist.jp/en/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Brittany Reid is a postdoctoral researcher at the NAIST Software Engineering Lab whose work focuses on code reuse.
+bio: Brittany Reid is a postdoctoral researcher at the NAIST Software Engineering Lab whose work focuses on code reuse, software ecosystems and AI4SE.
 
 # Interests to show in About widget
 # interests:
@@ -117,5 +117,5 @@ social:
 highlight_name: true
 ---
 
-Brittany Reid is a postdoctoral researcher at the NAIST Software Engineering Lab whose work focuses on code reuse.
+Brittany Reid is a postdoctoral researcher at the NAIST Software Engineering Lab whose work focuses on code reuse, software ecosystems and AI4SE.
 {style="text-align: justify;"}
