@@ -300,11 +300,11 @@ sections:
       coordinates:
         latitude: '34.73204856906994'
         longitude: '135.73439311240438'  
-      # contact_links:
-      #   - icon: twitter
-      #     icon_pack: fab
-      #     name: DM Me
-      #     link: 'https://twitter.com/Twitter'
+      contact_links:
+        - icon: file
+          icon_pack: fas
+          name: Download CV
+          link: '/cv.pdf'
       #   - icon: skype
       #     icon_pack: fab
       #     name: Skype Me
