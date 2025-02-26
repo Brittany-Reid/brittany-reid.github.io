@@ -163,6 +163,34 @@ sections:
       columns: '2'
       view: card
 
+  - block: portfolio
+    id: datasets
+    headless: true
+    content:
+      title: Datasets
+      filters:
+      # Folders to display content from
+        folders:
+          - dataset
+      sort_by: 'Date'
+      sort_ascending: false
+
+      # filter_button:
+      # - name: All
+      #   tag: '*'
+      # - name: Deep Learning
+      #   tag: Deep Learning
+      # - name: Other
+      #   tag: Demo
+      #  filter_default: 0
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '2'
+      # Choose a listing view
+      view: masonry
+      # For Showcase view, flip alternate rows?
+      flip_alt_rows: false
+
   - block: collection
     content:
       title: Recent Publications

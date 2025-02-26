@@ -16,6 +16,9 @@ main:
   - name: Publications
     url: '#featured'
     weight: 50
+  - name: Datasets
+    url: '#datasets'
+    weight: 50
   # - name: Talks
   #   url: '#talks'
   #   weight: 40
