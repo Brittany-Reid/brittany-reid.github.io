@@ -5,6 +5,8 @@ date: 2022-10-24
 type: landing
 
 sections:
+
+    #bio
   - block: hero
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
@@ -54,41 +56,7 @@ sections:
         gradient_end: '#9e0000'
         gradient_start: '#004ba0'
         text_color_light: true
-  # - block: experience
-  #   content:
-  #     title: Experience
-  #     # Date format for experience
-  #     #   Refer to https://docs.hugoblox.com/customization/#date-format
-  #     date_format: Jan 2006
-  #     # Experiences.
-  #     #   Add/remove as many `experience` items below as you like.
-  #     #   Required fields are `title`, `company`, and `date_start`.
-  #     #   Leave `date_end` empty if it's your current employer.
-  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-  #     items:
-  #       - title: CEO
-  #         company: GenCoin
-  #         company_url: ''
-  #         company_logo: org-gc
-  #         location: California
-  #         date_start: '2021-01-01'
-  #         date_end: ''
-  #         description: |2-
-  #             Responsibilities include:
 
-  #             * Analysing
-  #             * Modelling
-  #             * Deploying
-  #       - title: Professor of Semiconductor Physics
-  #         company: University X
-  #         company_url: ''
-  #         company_logo: org-x
-  #         location: California
-  #         date_start: '2016-01-01'
-  #         date_end: '2020-12-31'
-  #         description: Taught electronic engineering and researched semiconductor physics.
-  #   design:
-  #     columns: '2'
   # - block: collection
   #   id: posts
   #   content:
@@ -143,14 +111,106 @@ sections:
   #     view: showcase
   #     # For Showcase view, flip alternate rows?
   #     flip_alt_rows: false
-  # - block: markdown
-  #   content:
-  #     title: Gallery
-  #     subtitle: ''
-  #     text: |-
-  #       {{< gallery album="demo" >}}
-  #   design:
-  #     columns: '1'
+
+  #photo gallery
+  - block: slider
+    content:
+      slides:
+        - title: 👋 SE Lab @ NAIST
+          content: Take a look at what we're working on...
+          align: center
+          background:
+            image:
+              # Specify an image from `assets/media/`
+              # or delete the image section to remove it
+              filename: se_lab.jpg
+              filters:
+                brightness: 0.7
+            position: right
+            color: '#666'
+          link:
+            icon: graduation-cap
+            icon_pack: fas
+            text: Join Us
+            url: https://naist-se.github.io/en/
+        - title: SANER 2025
+          content: Presentation of Student Work in Montreal, Canada
+          align: center
+          background:
+            image:
+              # Specify an image from `assets/media/`
+              # or delete the image section to remove it
+              filename: saner2025.jpg
+              filters:
+                brightness: 0.7
+            position: right
+            color: '#666'
+          link:
+            icon: link
+            icon_pack: fas
+            text: See Slides
+            url: '#talks'
+        - title: WIREDS 2024
+          content: Successful Workshop
+          align: center
+          background:
+            image:
+              # Specify an image from `assets/media/`
+              # or delete the image section to remove it
+              filename: wireds.jpg
+              filters:
+                brightness: 0.7
+            position: right
+            color: '#666'
+          link:
+            icon: link
+            icon_pack: fas
+            text: Check out the website
+            url: https://wireds2024.github.io/
+    design:
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
+      slide_height: ''
+      # Make the slides full screen within the browser window?
+      is_fullscreen: true
+      # Automatically transition through slides?
+      loop: false
+      # Duration of transition between slides (in ms)
+      interval: 2000
+
+  #jobs
+  - block: experience
+    content:
+      title: Experience
+      # Date format for experience
+      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Assistant Professor　・　助教授
+          company: Nara Institute of Science and Technology
+          company_url: 'https://www.naist.jp/en/'
+          company_logo: naist
+          location: Nara, Japan
+          date_start: '2024-04-01'
+          date_end: ''
+          description: |2-
+              Software Design Lab　
+        - title: Post-doctoral Researcher ・　博士研究員
+          company: Nara Institute of Science and Technology
+          company_url: 'https://www.naist.jp/en/'
+          company_logo: naist
+          location: Nara, Japan
+          date_start: '2023-12-01'
+          date_end: '2025-03-30'
+          description: |2-
+              Software Engineering Lab
+    design:
+      columns: '2'
+
   - block: collection
     id: featured
     content:
@@ -205,16 +265,19 @@ sections:
     design:
       columns: '2'
       view: citation
-  # - block: collection
-  #   id: talks
-  #   content:
-  #     title: Recent & Upcoming Talks
-  #     filters:
-  #       folders:
-  #         - event
-  #   design:
-  #     columns: '2'
-  #     view: compact
+
+  - block: collection
+    id: talks
+    content:
+      title: Recent & Upcoming Talks
+      filters:
+        folders:
+          - talks
+    design:
+      columns: '2'
+      view: compact
+
+
   - block:  markdown
     content:
       title: Community Engagement
