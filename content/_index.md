@@ -293,7 +293,7 @@ sections:
       items:
         - title: SANER 2025
           date_start: '2025-03-05'
-          description: 'Program Comittee Main Track, RENE Track'
+          description: 'Program Committee Main Track, RENE Track'
           icon: saner
           organization: IEEE International Conference on Software Analysis, Evolution and Reengineering, Montreal, Canada
           organization_url: https://conf.researchr.org/home/saner-2025
