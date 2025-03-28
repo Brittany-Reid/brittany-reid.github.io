@@ -1,0 +1,29 @@
+<script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+
+<style>
+    .bsky-container{
+        overflow: scroll;
+        max-height: 400px;
+        padding-right: 30px;
+    }
+</style>
+
+{{ $username := .Get "username" }}
+<div class="card-simple">
+    <div class="bsky-container">
+    <bsky-embed 
+        username="{{$username}}"
+        feed="at://...(decide between username, feed, or search)"
+        search=" (decide between username, feed, and search)"
+        mode="light"
+        limit="3"
+        link-target="_blank"
+        link-image="true"
+        load-more="true"
+        disable-styles="false"
+        custom-styles=".flex > div { max-width: 100%; } .whitespace-pre-wrap { word-wrap: break-word;} .max-w-screen-sm{ max-width: 1000px}"
+        date-format='{"type":"absolute","locale":"en-gb","options":{"weekday":"long","year":"numeric","month":"long","day":"numeric"}}'
+    >
+    </bsky-embed>
+    </div>
+</div>
