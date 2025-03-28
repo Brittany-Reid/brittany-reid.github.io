@@ -1,5 +1,6 @@
 ---
 title: 'NCQ: code reuse support for Node. js developers'
+featured: true
 authors:
 - Brittany Reid
 - Marcelo d'Amorim

@@ -214,10 +214,11 @@ sections:
   - block: collection
     id: featured
     content:
-      title: Featured Publications
+      title: Featured Publications & Talks
       filters:
         folders:
           - publication
+          - talks
         featured_only: true
     design:
       columns: '2'

@@ -1,5 +1,6 @@
 ---
 title: Improving Developer Efficiency through Code Reuse
+featured: true
 authors:
 - Brittany Reid
 date: '2023-01-01'
