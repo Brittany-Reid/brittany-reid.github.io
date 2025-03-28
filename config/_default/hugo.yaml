@@ -58,6 +58,7 @@ related:
       weight: 70
 security:
   _merge: deep
+  enableInlineShortcodes: true
 sitemap:
   _merge: deep
 minify:

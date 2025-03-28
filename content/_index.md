@@ -195,7 +195,7 @@ sections:
           company_url: 'https://www.naist.jp/en/'
           company_logo: naist
           location: Nara, Japan
-          date_start: '2024-04-01'
+          date_start: '2025-04-01'
           date_end: ''
           description: |2-
               Software Design Lab　
@@ -277,24 +277,56 @@ sections:
       columns: '2'
       view: compact
 
-
-  - block:  markdown
+  #community engagement
+  - block: accomplishments
     content:
       title: Community Engagement
-      text: |-
-        <div class="card-simple">
-        <div class="article-style">
-          <b>WIREDS Workshop Organising Team 2024 </b><br>
-          International Workshop on Intertwining Research & Education on Software, Osaka, Japan<br>
-          <a href="https://wireds2024.github.io/">https://wireds2024.github.io/</a><br>
-          <br>
-          <b>SANER 2025 PC Member</b> Main, RENE Track<br>
-          IEEE International Conference on Software Analysis, Evolution and Reengineering<br>
-          <a href="https://conf.researchr.org/home/saner-2025">https://conf.researchr.org/home/saner-2025</a>
-        </div>
-        </div>
+      subtitle: ''
+      text: ''
+      # Date format: https://wowchemy.com/docs/customization/#date-format
+      date_format:  Jan 2006
+      # Accomplishments.
+      #   Add/remove as many `items` blocks below as you like.
+      #   `title`, `organization`, and `date_start` are the required parameters.
+      #   Leave other parameters empty if not required.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: SANER 2025
+          date_start: '2025-03-05'
+          description: 'Program Comittee Main Track, RENE Track'
+          icon: saner
+          organization: IEEE International Conference on Software Analysis, Evolution and Reengineering, Montreal, Canada
+          organization_url: https://conf.researchr.org/home/saner-2025
+          url: ''
+        - title: WIREDS Workshop 2024
+          date_start: '2024-12-06'
+          description: 'Organizing Committee'
+          icon: wireds-c
+          organization: International Workshop on Intertwining Research & Education on Software, Osaka, Japan
+          organization_url: https://wireds2024.github.io
+          url: ''
     design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '2'
+
+
+  # - block:  markdown
+  #   content:
+  #     title: Community Engagement
+  #     text: |-
+  #       <div class="card-simple">
+  #       <div class="article-style">
+  #         <b>WIREDS Workshop Organising Team 2024 </b><br>
+  #         International Workshop on Intertwining Research & Education on Software, Osaka, Japan<br>
+  #         <a href="https://wireds2024.github.io/">https://wireds2024.github.io/</a><br>
+  #         <br>
+  #         <b>SANER 2025 PC Member</b> Main, RENE Track<br>
+  #         IEEE International Conference on Software Analysis, Evolution and Reengineering<br>
+  #         <a href="https://conf.researchr.org/home/saner-2025">https://conf.researchr.org/home/saner-2025</a>
+  #       </div>
+  #       </div>
+  #   design:
+  #     columns: '2'
   - block:  markdown
     content:
       title: Awards and Funding
