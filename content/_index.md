@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ''
-date: 2022-10-24
+date: 2025-10-24
 type: landing
 
 sections:
@@ -116,14 +116,14 @@ sections:
   - block: slider
     content:
       slides:
-        - title: 👋 SE Lab @ NAIST
+        - title: 👋 SD Lab @ NAIST
           content: Take a look at what we're working on...
           align: center
           background:
             image:
               # Specify an image from `assets/media/`
               # or delete the image section to remove it
-              filename: se_lab.jpg
+              filename: sd_lab.jpg
               filters:
                 brightness: 0.7
             position: right
@@ -132,7 +132,7 @@ sections:
             icon: graduation-cap
             icon_pack: fas
             text: Join Us
-            url: https://naist-se.github.io/en/
+            url: https://sdlab.naist.jp/en/
         - title: SANER 2025
           content: Presentation of Student Work in Montreal, Canada
           align: center
@@ -190,7 +190,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Assistant Professor　・　助教授
+        - title: Assistant Professor　・　助教
           company: Nara Institute of Science and Technology
           company_url: 'https://www.naist.jp/en/'
           company_logo: naist

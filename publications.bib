@@ -1,3 +1,20 @@
+@INPROCEEDINGS{abdullah2025using,
+  author={Abdullah, Bayu Fedra and Nugroho, Yusuf Sulistyo and Reid, Brittany and Kula, Raula Gaikovina and Shimari, Kazumasa and Matsumoto, Kenichi},
+  booktitle={2025 International Conference on Smart Computing, IoT and Machine Learning (SIML)}, 
+  title={Using LLMs for Security Advisory Investigations: How Far are We?}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-6},
+  abstract={Large Language Models (LLMs) are increasingly used in software security, but their trustworthiness in generating accurate vulnerability advisories remains uncertain. This study investigates the ability of ChatGPT to (1) generate plausible security advisories from CVE-IDs, (2) differentiate real from fake CVE-IDs, and (3) extract CVE-IDs from advisory descriptions. Using a curated dataset of 100 real and 100 fake CVE-IDs, we manually analyzed the credibility and consistency of the model's outputs. The results show that ChatGPT generated plausible security advisories for 96 % of given input real CVE-IDs and $\mathbf{9 7 \%}$ of given input fake CVE-IDs, demonstrating a limitation in differentiating between real and fake IDs. Furthermore, when these generated advisories were reintroduced to ChatGPT to identify their original CVE-ID, the model produced a fake CVEID in 6% of cases from real advisories. These findings highlight both the strengths and limitations of ChatGPT in cybersecurity applications. While the model demonstrates potential for automating advisory generation, its inability to reliably authenticate CVE-IDs or maintain consistency upon re-evaluation underscores the risks associated with its deployment in critical security tasks. Our study emphasizes the importance of using LLMs with caution in cybersecurity workflows and suggests the need for further improvements in their design to improve reliability and applicability in security advisory generation.},
+  keywords={Training;Accuracy;Large language models;Refining;Machine learning;Chatbots;Reliability engineering;Software;Prompt engineering;Computer security;advisory;chatgpt;cve id;security;vulnerability},
+  doi={10.1109/SIML65326.2025.11080876},
+  ISSN={},
+  url={https://ieeexplore.ieee.org/document/11080876},
+  month={June},
+  type = {Conference Proceedings},
+}
+
 @article{chinthanet2021what,
    author = {Chinthanet, Bodin and Reid, Brittany and Treude, Christoph and Wagner, Markus and Kula, Raula Gaikovina and Ishio, Takashi and Matsumoto, Kenichi},
    title = {What makes a good Node. js package? Investigating Users, Contributors, and Runnability},
@@ -9,15 +26,55 @@
    type = {Journal Article}
 }
 
+@inbook{jaisri2025preliminary,
+  title={A Preliminary Study on Self-contained Libraries in the NPM Ecosystem},
+  author={Jaisri, Pongchai and Reid, Brittany and Kula, Raula Gaikovina},
+  editor="Lee, Roger",
+  booktitle={Software Engineering and Management: Theory and Applications: Volume 17},
+  abstract={The widespread of libraries within modern software ecosystems creates complex networks of dependencies. These dependencies are fragile to breakage, outdated, or redundancy, potentially leading to cascading issues in dependent libraries. One mitigation strategy involves reducing dependencies; libraries with zero dependencies become self-contained. This paper explores the characteristics of self-contained libraries within the NPM ecosystem. Analyzing a dataset of 2,763 NPM libraries, we found that 39.49{\%} are self-contained. Of these self-contained libraries, 40.42{\%} previously had dependencies that were later removed. This analysis revealed a significant trend of dependency reduction within the NPM ecosystem. The most frequently removed dependency was babel-runtime. Our investigation indicates that the primary reasons for dependency removal are concerns about the performance and the size of the dependency. Our findings illuminate the nature of self-contained libraries and their origins, offering valuable insights to guide software development practices.},
+  volume={1193},
+  year={2025},
+  publisher="Springer Nature Switzerland",
+  address="Cham",
+  pages="53--65",
+  publisher={Springer Nature},
+  doi={10.1007/978-3-031-82610-8_4},
+  isbn={978-3-031-82610-8},
+  url={https://link.springer.com/chapter/10.1007/978-3-031-82610-8_4},
+  type = {Book Chapter}
+}
+
 @inproceedings{kancharoendee2025categorizing,
    title={On Categorizing Open Source Software Security Vulnerability Reporting Mechanisms on GitHub},
    author={Kancharoendee, Sushawapak and Phichitphanphong, Thanat and Jongyingyos, Chanikarn and Reid, Brittany and Kula, Raula Gaikovina and Choetkiertikul, Morakot and Ragkhitwetsagul, Chaiyong and Sunetnanta, Thanwadee},
    booktitle = {IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)},
    abstract = {Open-source projects are essential to software development, but publicly disclosing vulnerabilities without fixes increases the risk of exploitation. The Open Source Security Foundation (OpenSSF) addresses this issue by promoting robust security policies to enhance project security. Current research reveals that many projects perform poorly on OpenSSF criteria, indicating a need for stronger security practices and underscoring the value of SECURITY.md files for structured vulnerability reporting. This study aims to provide recommendations for improving security policies. By examining 679 open-source projects, we find that email is still the main source of reporting. Furthermore, we find that projects without SECURITY.md files tend to be less secure (lower OpenSSF scores). Our analysis also indicates that, although many maintainers encourage private reporting methods, some contributors continue to disclose vulnerabilities publicly, bypassing established protocols. The results from this preliminary study pave the way for understanding how developers react and communicate a potential security threat. Future challenges include understanding the impact and effectiveness of these mechanisms and what factors may influence how the security threat is addressed. },
    keywords = {open source, security policy, OpenSSF},
-   url = {https://arxiv.org/abs/2201.05348},
+   url = {https://ieeexplore.ieee.org/document/10992562},
+   keywords={Protocols;Security;Open source software;Software development management;open-source;security policy;OpenSSF},
+   doi={10.1109/SANER64311.2025.00076},
+   ISSN={2640-7574},
+   month={March},
+   year = {2025},
+   volume={},
+   number={},
+   pages={751-756},
    type = {Conference Proceedings},
-   year = {2025}
+}
+
+@INPROCEEDINGS{nugroho2025uncovering,
+  author={Nugroho, Yusuf Sulistyo and Salam, Farah Danisha and Reid, Brittany and Kula, Raula Gaikovina and Shimari, Kazumasa and Matsumoto, Kenichi},
+  booktitle={2025 International Conference on Smart Computing, IoT and Machine Learning (SIML)}, 
+  title={Uncovering Intention Through LLM-Driven Code Snippet Description Generation}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-6},
+  url={https://ieeexplore.ieee.org/document/11081156},
+  abstract={Documenting code snippets is essential to pinpoint key areas where both developers and users should pay attention. Examples include usage examples and other Application Programming Interfaces (APIs), which are especially important for third-party libraries. With the rise of Large Language Models (LLMs), the key goal is to investigate the kinds of description developers commonly use and evaluate how well an LLM, in this case Llama, can support description generation. We use NPM Code Snippets, consisting of 185,412 packages with 1,024,579 code snippets. From there, we use 400 code snippets (and their descriptions) as samples. First, our manual classification found that the majority of original descriptions (55.5%) highlight example-based usage. This finding emphasizes the importance of clear documentation, as some descriptions lacked sufficient detail to convey intent. Second, the LLM correctly identified the majority of original descriptions as “Example” (79.75%), which is identical to our manual finding, showing a propensity for generalization. Third, compared to the originals, the produced description had an average similarity score of 0.7173, suggesting relevance but room for improvement. Scores below 0.9 indicate some irrelevance. Our results show that depending on the task of the code snippet, the intention of the document may differ from being instructions for usage, installations, or descriptive learning examples for any user of a library.},
+  keywords={Codes;Large language models;Documentation;Machine learning;Libraries;code snippets;description;readme files;software documentation},
+  doi={10.1109/SIML65326.2025.11081156},
+  type = {Conference Proceedings},
 }
 
 @article{reid2023ncq,
