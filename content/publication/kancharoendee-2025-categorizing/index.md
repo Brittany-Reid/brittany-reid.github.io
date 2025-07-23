@@ -10,12 +10,13 @@ authors:
 - Morakot Choetkiertikul
 - Chaiyong Ragkhitwetsagul
 - Thanwadee Sunetnanta
-date: '2025-01-01'
-publishDate: '2025-03-28T06:01:41.731143Z'
+date: '2025-03-01'
+publishDate: '2025-07-23T05:21:01.975492Z'
 publication_types:
 - paper-conference
 publication: '*IEEE International Conference on Software Analysis, Evolution and Reengineering
   (SANER)*'
+doi: 10.1109/SANER64311.2025.00076
 abstract: 'Open-source projects are essential to software development, but publicly
   disclosing vulnerabilities without fixes increases the risk of exploitation. The
   Open Source Security Foundation (OpenSSF) addresses this issue by promoting robust
@@ -38,5 +39,5 @@ tags:
 - OpenSSF
 links:
 - name: URL
-  url: https://arxiv.org/abs/2201.05348
+  url: https://ieeexplore.ieee.org/document/10992562
 ---

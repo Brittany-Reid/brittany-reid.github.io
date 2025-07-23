@@ -5,7 +5,7 @@ authors:
 - Christoph Treude
 - Markus Wagner
 date: '2023-01-01'
-publishDate: '2025-03-28T06:01:41.753776Z'
+publishDate: '2025-07-23T05:21:02.007067Z'
 publication_types:
 - paper-conference
 publication: '*2023 IEEE 23rd International Working Conference on Source Code Analysis
