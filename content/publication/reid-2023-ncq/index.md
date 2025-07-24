@@ -6,7 +6,7 @@ authors:
 - Markus Wagner
 - Christoph Treude
 date: '2023-01-01'
-publishDate: '2025-07-23T05:21:01.991260Z'
+publishDate: '2025-07-24T06:39:08.547258Z'
 publication_types:
 - article-journal
 publication: '*IEEE Transactions on Software Engineering*'

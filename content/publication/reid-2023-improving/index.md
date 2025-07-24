@@ -3,7 +3,7 @@ title: Improving Developer Efficiency through Code Reuse
 authors:
 - Brittany Reid
 date: '2023-01-01'
-publishDate: '2025-07-23T05:21:02.022045Z'
+publishDate: '2025-07-24T06:39:08.577566Z'
 publication_types:
 - thesis
 abstract: Code reuse is an integral part of modern software development, where most

@@ -8,7 +8,7 @@ authors:
 - Kazumasa Shimari
 - Kenichi Matsumoto
 date: '2025-06-01'
-publishDate: '2025-07-23T05:21:01.949006Z'
+publishDate: '2025-07-24T06:39:08.503644Z'
 publication_types:
 - paper-conference
 publication: '*2025 International Conference on Smart Computing, IoT and Machine Learning
@@ -21,20 +21,33 @@ abstract: Large Language Models (LLMs) are increasingly used in software securit
   (3) extract CVE-IDs from advisory descriptions. Using a curated dataset of 100 real
   and 100 fake CVE-IDs, we manually analyzed the credibility and consistency of the
   model's outputs. The results show that ChatGPT generated plausible security advisories
-  for 96 % of given input real CVE-IDs and $mathbf9 7 %$ of given input fake CVE-IDs,
-  demonstrating a limitation in differentiating between real and fake IDs. Furthermore,
-  when these generated advisories were reintroduced to ChatGPT to identify their original
-  CVE-ID, the model produced a fake CVEID in 6% of cases from real advisories. These
-  findings highlight both the strengths and limitations of ChatGPT in cybersecurity
-  applications. While the model demonstrates potential for automating advisory generation,
-  its inability to reliably authenticate CVE-IDs or maintain consistency upon re-evaluation
-  underscores the risks associated with its deployment in critical security tasks.
-  Our study emphasizes the importance of using LLMs with caution in cybersecurity
-  workflows and suggests the need for further improvements in their design to improve
-  reliability and applicability in security advisory generation.
+  for 96% of given input real CVE-IDs and 97% of given input fake CVE-IDs, demonstrating
+  a limitation in differentiating between real and fake IDs. Furthermore, when these
+  generated advisories were reintroduced to ChatGPT to identify their original CVE-ID,
+  the model produced a fake CVEID in 6% of cases from real advisories. These findings
+  highlight both the strengths and limitations of ChatGPT in cybersecurity applications.
+  While the model demonstrates potential for automating advisory generation, its inability
+  to reliably authenticate CVE-IDs or maintain consistency upon re-evaluation underscores
+  the risks associated with its deployment in critical security tasks. Our study emphasizes
+  the importance of using LLMs with caution in cybersecurity workflows and suggests
+  the need for further improvements in their design to improve reliability and applicability
+  in security advisory generation.
 tags:
-- Training;Accuracy;Large language models;Refining;Machine learning;Chatbots;Reliability
-  engineering;Software;Prompt engineering;Computer security;advisory;chatgpt;cve id;security;vulnerability
+- Training
+- Accuracy
+- Large language models
+- Refining
+- Machine learning
+- Chatbots
+- Reliability engineering
+- Software
+- Prompt engineering
+- Computer security
+- advisory
+- chatgpt
+- cve id
+- security
+- vulnerability
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/document/11080876
