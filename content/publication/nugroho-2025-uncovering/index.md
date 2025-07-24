@@ -8,7 +8,7 @@ authors:
 - Kazumasa Shimari
 - Kenichi Matsumoto
 date: '2025-01-01'
-publishDate: '2025-07-23T05:21:01.983451Z'
+publishDate: '2025-07-24T06:39:08.538886Z'
 publication_types:
 - paper-conference
 publication: '*2025 International Conference on Smart Computing, IoT and Machine Learning
@@ -33,8 +33,15 @@ abstract: Documenting code snippets is essential to pinpoint key areas where bot
   may differ from being instructions for usage, installations, or descriptive learning
   examples for any user of a library.
 tags:
-- Codes;Large language models;Documentation;Machine learning;Libraries;code snippets;description;readme
-  files;software documentation
+- Codes
+- Large language models
+- Documentation
+- Machine learning
+- Libraries
+- code snippets
+- description
+- readme files
+- software documentation
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/document/11081156

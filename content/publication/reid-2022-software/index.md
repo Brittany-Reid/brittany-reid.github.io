@@ -6,7 +6,7 @@ authors:
 - Marcelo d'Amorim
 - Christoph Treude
 date: '2022-01-01'
-publishDate: '2025-07-23T05:21:02.014634Z'
+publishDate: '2025-07-24T06:39:08.570189Z'
 publication_types:
 - paper-conference
 publication: '*International Workshop on Recruiting Participants for Empirical Software

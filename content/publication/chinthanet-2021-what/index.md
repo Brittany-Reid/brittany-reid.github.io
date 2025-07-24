@@ -10,7 +10,7 @@ authors:
 - Takashi Ishio
 - Kenichi Matsumoto
 date: '2021-01-01'
-publishDate: '2025-07-23T05:21:01.960036Z'
+publishDate: '2025-07-24T06:39:08.515524Z'
 publication_types:
 - article-journal
 publication: '*arXiv preprint arXiv:2106.12239*'
