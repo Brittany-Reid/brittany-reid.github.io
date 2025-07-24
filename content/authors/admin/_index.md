@@ -25,10 +25,10 @@ organizations:
 bio: Brittany Reid is an Assistant Professor at the NAIST Software Design and Analysis Lab whose work focuses on code reuse, software ecosystems and AI4SE.
 
 # Interests to show in About widget
-# interests:
-#   - Artificial Intelligence
-#   - Computational Linguistics
-#   - Information Retrieval
+interests:
+  - Software Ecosystems
+  - Code Reuse
+  - AI4SE
 
 # Education to show in About widget
 education:
@@ -93,7 +93,7 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/brittany_a_reid
+    link: https://bsky.app/profile/brittanyareid.bsky.social
     label: Follow me on Twitter
     display:
       header: false
