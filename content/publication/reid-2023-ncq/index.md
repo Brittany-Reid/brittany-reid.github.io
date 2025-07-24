@@ -1,13 +1,12 @@
 ---
 title: 'NCQ: code reuse support for Node. js developers'
-featured: true
 authors:
 - Brittany Reid
 - Marcelo d'Amorim
 - Markus Wagner
 - Christoph Treude
 date: '2023-01-01'
-publishDate: '2025-03-28T06:01:41.738935Z'
+publishDate: '2025-07-23T05:21:01.991260Z'
 publication_types:
 - article-journal
 publication: '*IEEE Transactions on Software Engineering*'

@@ -5,7 +5,7 @@ authors:
 - Christoph Treude
 - Markus Wagner
 date: '2020-01-01'
-publishDate: '2025-03-28T06:01:41.746546Z'
+publishDate: '2025-07-23T05:21:01.999659Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the 2020 Genetic and Evolutionary Computation Conference
