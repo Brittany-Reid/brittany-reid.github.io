@@ -210,10 +210,19 @@ sections:
       items:
         - title: MSR 2026
           date_start: '2026-04-12'
-          description: 'Program Committee Technical Track'
+          description: 'Program Committee Technical Track, Mining Challenge Track'
           icon: msr
           organization: International Conference on Mining Software Repositories, Rio de Janeiro, Bazil
           organization_url: https://2026.msrconf.org/
+          url: ''
+        - title: SANER
+          date_start: '2026-03-17'
+          description: |2-
+            2026: Program Committee RENE Track, ERA Track<br>
+            2025: Program Committee Main Track, RENE Track
+          icon: saner
+          organization: IEEE International Conference on Software Analysis, Evolution and Reengineering
+          organization_url: https://conf.researchr.org/home/saner-2025
           url: ''
         - title: VISSOFT 2025
           date_start: '2025-09-07'
@@ -221,13 +230,6 @@ sections:
           icon: vissoft
           organization: IEEE Working Conference on Software Visualization, Auckland, New Zealand
           organization_url: https://vissoft.io/2025/
-          url: ''
-        - title: SANER 2025
-          date_start: '2025-03-05'
-          description: 'Program Committee Main Track, RENE Track'
-          icon: saner
-          organization: IEEE International Conference on Software Analysis, Evolution and Reengineering, Montreal, Canada
-          organization_url: https://conf.researchr.org/home/saner-2025
           url: ''
         - title: WIREDS Workshop 2024
           date_start: '2024-12-06'
