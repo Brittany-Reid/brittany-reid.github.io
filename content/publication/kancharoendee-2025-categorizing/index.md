@@ -11,7 +11,7 @@ authors:
 - Chaiyong Ragkhitwetsagul
 - Thanwadee Sunetnanta
 date: '2025-03-01'
-publishDate: '2025-07-24T06:39:08.530835Z'
+publishDate: '2026-01-14T08:01:53.171613Z'
 publication_types:
 - paper-conference
 publication: '*IEEE International Conference on Software Analysis, Evolution and Reengineering

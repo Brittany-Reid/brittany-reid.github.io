@@ -5,7 +5,7 @@ authors:
 - Brittany Reid
 - Raula Gaikovina Kula
 date: '2025-01-01'
-publishDate: '2025-07-24T06:39:08.523460Z'
+publishDate: '2026-01-14T08:01:53.164312Z'
 publication_types:
 - chapter
 publication: '*Software Engineering and Management: Theory and Applications: Volume
