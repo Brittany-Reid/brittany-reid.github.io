@@ -8,7 +8,7 @@ authors:
 - Kazumasa Shimari
 - Kenichi Matsumoto
 date: '2025-01-01'
-publishDate: '2025-07-24T06:39:08.538886Z'
+publishDate: '2026-01-14T08:01:53.179603Z'
 publication_types:
 - paper-conference
 publication: '*2025 International Conference on Smart Computing, IoT and Machine Learning
